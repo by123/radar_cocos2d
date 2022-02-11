@@ -1,0 +1,16 @@
+//
+// Prefix header for all source files of the 'iphone' target in the 'iphone' project
+//
+
+#ifdef __OBJC__
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#endif
+
+#ifdef __cplusplus
+#endif
+
+#define ScreenWidth 640
+#define ScreenHeight 1136
+#define iLat 22.5540360000
+#define iLon 113.9498400000
